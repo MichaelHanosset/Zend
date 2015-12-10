@@ -5,12 +5,24 @@ return array(
         array(
             'spec' => array(
                 'type' => 'Zend\Form\Element\Text',
-                'name' => 'log',
+                'name' => 'login',
                 'attributes' => array(
                     'size' => '20',
                 ),
                 'options' => array(
                     'label' => 'Login : ',
+                ),
+            ),
+        ),
+        array(
+            'spec' => array(
+                'type' => 'Zend\Form\Element\Text',
+                'name' => 'Mdp',
+                'attributes' => array(
+                    'size' => '20',
+                ),
+                'options' => array(
+                    'label' => 'Mot de passe : ',
                 ),
             ),
         ),
