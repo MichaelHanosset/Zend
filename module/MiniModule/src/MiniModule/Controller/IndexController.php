@@ -10,7 +10,7 @@ class IndexController extends AbstractActionController
         return array('nom' => 'Titnitntintiitnitn');
     }
 
-    public function gmapsAction()
+    /*public function gmapsAction()
     {
 	    $markers = array(
 	        'Mozzat Web Team' => '17.516684,79.961589',
@@ -34,6 +34,11 @@ class IndexController extends AbstractActionController
 	    $map->initialize($config);     //loading the config   
 	    $html = $map->generate();      //genrating the html map content  
 	    return new ViewModel(array('map_html' => $html));                //passing it to the view
+    }*/
+
+    public function formAction()
+    {
+    	return array() ;
     }
 }
 
