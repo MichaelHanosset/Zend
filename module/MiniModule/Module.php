@@ -1,10 +1,12 @@
 <?php
 namespace MiniModule;
+
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\BootstrapListenerInterface;
 use Zend\EventManager\EventInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Zend\Mvc\MvcEvent;
+
 class Module implements ConfigProviderInterface, BootstrapListenerInterface, AutoloaderProviderInterface
 {
     public function getConfig()
