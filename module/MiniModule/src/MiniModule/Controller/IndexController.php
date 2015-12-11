@@ -71,6 +71,7 @@ class IndexController extends AbstractActionController
         $factory = new Factory();
         $form = $factory->createForm( $configForm );*/
 
+
         $services = $this->getServiceLocator();
         $form = $services->get('MiniModule\Form\Authentification');
 
